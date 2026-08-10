@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TECHNICAL SUPPORT • IOT • INDUSTRIAL SOFTWARE">
+<meta property="og:description" content="Dede Kusdiana | Technical Support, IoT, Industrial Software, MES, Automation & Electronic Engineering">
+<meta property="og:url" content="https://dedekusdiana.github.io/CVonline/">
+<meta name="description" content="Dede Kusdiana | Technical Support, IoT, Industrial Software, MES, Automation & Electronic Engineering">
+
+<title>TECHNICAL SUPPORT • IOT • INDUSTRIAL SOFTWARE</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#080d12;color:#e8edf2;line-height:1.6}
+nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(8,13,18,.94);backdrop-filter:blur(10px);border-bottom:1px solid #1d2a33}
+.nav{max-width:1180px;margin:auto;padding:17px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:21px;font-weight:700;color:#20d7ff}.logo span{color:#fff}
+.nav ul{display:flex;gap:26px;list-style:none}.nav a{color:#9eabb5;text-decoration:none;font-size:13px}.nav a:hover{color:#20d7ff}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 80% 30%,#073746,transparent 34%),linear-gradient(180deg,#091118,#080d12)}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(#17303a 1px,transparent 1px),linear-gradient(90deg,#17303a 1px,transparent 1px);background-size:55px 55px;opacity:.14}
+.container{max-width:1180px;margin:auto;padding:0 24px;position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:70px;align-items:center;padding-top:80px}
+.badge{display:inline-block;border:1px solid #20d7ff;color:#20d7ff;border-radius:20px;padding:6px 13px;font-size:11px;letter-spacing:1.5px;margin-bottom:22px}
+h1{font-size:clamp(45px,7vw,78px);line-height:1.02;margin-bottom:20px}h1 span{color:#20d7ff}
+.hero p{max-width:650px;color:#9aa8b2;font-size:18px;margin-bottom:30px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:11px 20px;border-radius:4px;text-decoration:none;font-size:13px}.primary{background:#20d7ff;color:#061017;font-weight:bold}.outline{border:1px solid #344650;color:#d5dde3}.outline:hover{border-color:#20d7ff;color:#20d7ff}
+.monitor{background:rgba(14,23,30,.92);border:1px solid #293b46;border-radius:9px;padding:24px;box-shadow:0 0 55px rgba(32,215,255,.08)}
+.monitor-head{display:flex;justify-content:space-between;border-bottom:1px solid #263640;padding-bottom:14px;margin-bottom:22px;font-size:12px;color:#aab7bf}.online{color:#4cff9b}.online:before{content:"";display:inline-block;width:7px;height:7px;background:#4cff9b;border-radius:50%;margin-right:6px}
+.value{font-size:44px;font-weight:bold;color:#20d7ff}.muted{color:#71808b;font-size:11px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:24px}.stat{background:#101b22;padding:14px;border-radius:5px}.stat b{display:block;font-size:17px}.stat small{color:#71808b}
+section{padding:95px 0}.dark{background:#0c141b}.section-head{margin-bottom:45px}.section-head small{color:#20d7ff;text-transform:uppercase;letter-spacing:2px;font-size:10px}.section-head h2{font-size:37px;margin-top:7px}
+.about-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:65px}.about-text{color:#9aa8b2}.about-text p{margin-bottom:17px}.profile{border-left:2px solid #20d7ff;padding-left:25px}.profile-item{margin-bottom:20px}.profile-item small{display:block;color:#657580;font-size:10px}.profile-item b{font-size:14px}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:9px 13px;background:#101a21;border:1px solid #293943;border-radius:4px;color:#b8c4cb;font-size:12px}.skill:hover{border-color:#20d7ff;color:#20d7ff}
+
+.iot-image{margin-top:24px;border:1px solid #293943;border-radius:7px;overflow:hidden;background:#091118}
+.iot-image img{display:block;width:100%;height:auto}
+.iot-caption{padding:10px 13px;color:#71808b;font-size:10px;text-transform:uppercase;letter-spacing:1px}
+.project{display:grid;grid-template-columns:.85fr 1.15fr;border:1px solid #293943;border-radius:9px;overflow:hidden;background:#0d171e}.diagram{min-height:390px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0a222c,#0e171e)}.flow{text-align:center;color:#20d7ff;font-size:12px}.box{border:1px solid #20d7ff;padding:7px 18px;margin:5px;border-radius:3px}.project-body{padding:40px}.project-body h3{font-size:28px;margin-bottom:14px}.project-body p{color:#94a2ad;margin-bottom:22px}.tech{display:flex;flex-wrap:wrap;gap:7px}.tech span{font-size:10px;background:#17252d;color:#9db2bd;padding:6px 9px;border-radius:3px}
+.timeline{border-left:1px solid #2a3942;padding-left:30px}.item{position:relative;margin-bottom:38px}.item:before{content:"";position:absolute;left:-36px;top:5px;width:8px;height:8px;border:2px solid #20d7ff;border-radius:50%;background:#080d12}.item .date{color:#20d7ff;font-size:11px}.item h3{font-size:19px;margin:4px 0}.item h4{font-size:13px;color:#c2ccd2;margin-bottom:7px}.item p{color:#8998a3;font-size:13px;max-width:850px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{border:1px solid #293943;background:#0e171e;border-radius:7px;padding:23px}.card h3{font-size:16px;margin-bottom:10px}.card p{color:#8998a3;font-size:12px}
+.contact{text-align:center;background:#0c141b}.contact p{color:#8d9ba5;margin-bottom:25px}.links{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.links a{border:1px solid #293943;color:#c7d0d6;text-decoration:none;padding:9px 17px;border-radius:4px;font-size:12px}.links a:hover{border-color:#20d7ff;color:#20d7ff}
+footer{text-align:center;padding:24px;color:#56656f;font-size:11px;border-top:1px solid #1c2931}
+@media(max-width:800px){.nav ul{display:none}.hero-grid,.about-grid,.project{grid-template-columns:1fr}.hero{min-height:auto;padding:130px 0 70px}.hero-grid{padding-top:0;gap:40px}.diagram{min-height:280px}.cards{grid-template-columns:1fr}.project-body{padding:27px}section{padding:70px 0}}
+</style>
+</head>
+<body>
+
+<nav><div class="nav">
+<div class="logo">DK<span>.</span></div>
+<ul>
+<li><a href="#home">Home</a></li><li><a href="#profile">Profile</a></li><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li>
+</ul></div></nav>
+
+<section class="hero" id="home"><div class="container hero-grid">
+<div>
+<div class="badge">TECHNICAL SUPPORT • IOT • INDUSTRIAL SOFTWARE</div>
+<h1>Dede<br><span>Kusdiana</span></h1>
+<p>Software Engineer dengan pengalaman di manufaktur elektronik, MES, production support, electronic engineering, dan pengembangan IoT Machine Monitoring.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View Project</a><a class="btn outline" href="#experience">My Experience</a></div>
+</div>
+<div class="monitor">
+<div class="monitor-head"><span>MACHINE MONITORING</span><span class="online">ONLINE</span></div>
+<div class="value">98.7%</div><div class="muted">MACHINE PERFORMANCE</div>
+<div class="stats"><div class="stat"><b>128</b><small>OUTPUT</small></div><div class="stat"><b>02</b><small>ALARM</small></div><div class="stat"><b>24h</b><small>UPTIME</small></div></div>
+</div>
+</div></section>
+
+<section class="dark" id="profile"><div class="container">
+<div class="section-head"><small>Profile</small><h2>About Me</h2></div>
+<div class="about-grid">
+<div class="about-text">
+<p>Saya memiliki pengalaman lebih dari 15 tahun di lingkungan manufaktur dan industri elektronik, dengan perjalanan karier mulai dari electronic hardware, R&D, quality analysis, production engineering hingga software development dan MES.</p>
+<p>Saat ini fokus pada pengembangan sistem yang menghubungkan <b>machine I/O, IoT devices, industrial data, database, dan realtime web dashboard</b> untuk kebutuhan monitoring produksi.</p>
+<p>Kombinasi pengalaman hardware, software, production dan troubleshooting menjadi dasar dalam pengembangan <b>Prototype Machine Monitoring Berbasis IoT</b>.</p>
+</div>
+<div class="profile">
+<div class="profile-item"><small>FOCUS</small><b>IoT & Machine Monitoring</b></div>
+<div class="profile-item"><small>CURRENT ROLE</small><b>Software Engineer</b></div>
+<div class="profile-item"><small>INDUSTRIAL</small><b>MES / Shop Floor / Machine I/O</b></div>
+<div class="profile-item"><small>ENGINEERING</small><b>Software + Electronics</b></div>
+</div>
+</div></div></section>
+
+<section id="experience"><div class="container">
+<div class="section-head"><small>Career</small><h2>Professional Experience</h2></div>
+<div class="timeline">
+<div class="item"><div class="date">JUL 2020 – PRESENT</div><h3>Software Engineer</h3><h4>PT. ADI REKA MANDIRI — Delta Silicon V, Cikarang Pusat</h4><p>Develop software MES menggunakan Visual Basic, Oracle SQL/PLSQL, production tools dan document library. Mengelola label Giftbox, Carton Box dan Phone menggunakan CodeSoft. Support TRANSSION MES, Shop Floor, IMEI/MAC allocation, model change serta troubleshooting MES, software, label, printer dan weight checking.</p></div>
+<div class="item"><div class="date">OCT 2019 – JUL 2020</div><h3>Staff QA — Customer Return Analysis</h3><h4>PT. SIIX EMS INDONESIA — KIIC, Karawang</h4><p>Menangani customer claim, verification problem di production line, root cause analysis, A3 report dan final analysis report.</p></div>
+<div class="item"><div class="date">JAN 2017 – SEP 2019</div><h3>Electronic Engineer</h3><h4>PT. OKSHA TEKNOLOGI INDONESIA — MM2100, Cibitung</h4><p>Design schematic dan PCB layout menggunakan Altium Designer, BOM, material/vendor, CAD data SMT, pre-production, testing, product analysis, customer/vendor communication dan functional test jig.</p></div>
+<div class="item"><div class="date">SEP 2015 – DEC 2016</div><h3>Staff CRA — Customer Return Analysis</h3><h4>PT. PRICOL SURYA — KIIC, Karawang</h4><p>Analysis customer claim produk electronic speedometer, 5 Why, customer report dan monthly presentation.</p></div>
+<div class="item"><div class="date">NOV 2014 – MAY 2015</div><h3>Staff Design</h3><h4>PT. GEMABANGUN PRONAPERKASA — Lippo Cikarang</h4><p>Design hardware jig checker, schematic dan PCB Altium Designer, wiring block diagram, functional testing dan troubleshooting.</p></div>
+<div class="item"><div class="date">OCT 2009 – OCT 2014</div><h3>Technician — Research & Development</h3><h4>PT. MECOINDO ITRON — EJIP, Cikarang</h4><p>Design prototype hardware power supply, microcontroller, I/O dan display; design PCBA, assembly SMD/Through Hole, prototype evaluation, measurement report, troubleshooting dan product validation.</p></div>
+</div></div></section>
+
+<section class="dark" id="projects"><div class="container">
+<div class="section-head"><small>Featured Projects</small><h2>Industrial Engineering Projects</h2></div>
+
+<div class="project">
+<div class="diagram"><div class="flow">
+<div class="box">MACHINE I/O</div>↓<div class="box">ESP01 / ESP8266</div>↓<div class="box">WiFi + MQTT</div>↓<div class="box">Mosquitto Broker</div>↓<div class="box">Python + Database</div>↓<div class="box">ASP.NET Core + SignalR</div>
+</div></div>
+<div class="project-body"><h3>Prototype Machine Monitoring Berbasis IoT</h3>
+<p>Prototype sistem monitoring mesin yang mengambil status machine I/O, mengirimkan data melalui WiFi dan MQTT, memproses serta menyimpan data, kemudian menampilkan informasi pada dashboard web secara realtime menggunakan ASP.NET Core dan SignalR.</p>
+<div class="tech"><span>ESP8266 / ESP01</span><span>Machine I/O</span><span>MQTT</span><span>Mosquitto</span><span>Python</span><span>PostgreSQL</span><span>SQLite</span><span>ASP.NET Core</span><span>SignalR</span></div>
+<div class="iot-image">
+<img src="iot-dashboard.png" alt="Industrial IoT Monitoring System Dashboard">
+<div class="iot-caption">Realtime Industrial IoT Monitoring Dashboard</div>
+</div>
+</div>
+</div>
+
+<div style="height:28px"></div>
+
+<div class="project">
+<div class="diagram"><div class="flow">
+<div class="box">PLC / CONTROLLER</div>↓<div class="box">JIG FUNCTION TEST</div>↓<div class="box">INPUT / OUTPUT</div>↓<div class="box">PRODUCT TESTING</div>↓<div class="box">PASS / FAIL</div>
+</div></div>
+<div class="project-body"><h3>Automation Jig Function Test</h3>
+<p>Pengembangan dan support automation jig untuk membantu proses functional testing produk di production line. Sistem dirancang untuk mengontrol dan membaca I/O, menjalankan sequence pengujian, melakukan verification terhadap fungsi produk, serta menghasilkan keputusan <b>PASS / FAIL</b> secara konsisten.</p>
+<p>Project ini menggabungkan pengalaman electronic engineering, hardware troubleshooting, production support, machine I/O dan automation untuk meningkatkan reliability dan efisiensi proses testing.</p>
+<div class="tech"><span>Automation</span><span>Function Test Jig</span><span>Machine I/O</span><span>PLC / Controller</span><span>PCB Design</span><span>Altium Designer</span><span>Electronics</span><span>Production Support</span><span>Troubleshooting</span><span>Testing</span></div>
+<div class="iot-image">
+<img src="jig-function-test.png" alt="Hardware Development Jig Testing and Function Test">
+<div class="iot-caption">Hardware Development — Jig Testing / Function Test</div>
+</div>
+</div>
+</div>
+<div style="height:28px"></div>
+
+<div class="project">
+<div class="diagram"><div class="flow">
+<div class="box">SCHEMATIC</div>↓<div class="box">PCB LAYOUT</div>↓<div class="box">BOM</div>↓<div class="box">PCB / PCBA</div>↓<div class="box">TEST & VALIDATION</div>
+</div></div>
+<div class="project-body"><h3>PCB Design & Electronic Engineering</h3>
+<p>Perancangan hardware elektronik mulai dari schematic, PCB layout single layer dan multi layer, pembuatan BOM, persiapan data produksi, prototype assembly, testing dan troubleshooting. Berpengalaman menggunakan Altium Designer untuk pengembangan PCBA dan support proses engineering menuju produksi.</p>
+<div class="tech"><span>Altium Designer</span><span>PCB Design</span><span>Schematic</span><span>PCB Layout</span><span>BOM</span><span>PCBA</span><span>SMD / Through Hole</span><span>Testing</span><span>Troubleshooting</span></div>
+<div class="iot-image">
+<img src="pcb-design-altium.png" alt="Hardware Development PCB Design using Altium">
+<div class="iot-caption">Hardware Development — PCB Design using Altium</div>
+</div>
+</div>
+</div>
+
+</div></section>
+
+
+<div style="height:28px"></div>
+
+<div class="project">
+<div class="diagram"><div class="flow">
+<div class="box">CONSISTENCY_CSN</div>↓<div class="box">BINDING_SIM</div>↓<div class="box">GBC</div>↓<div class="box">GBW</div>↓<div class="box">PACKING</div>
+</div></div>
+<div class="project-body"><h3>Simple MES (Manufacture Execution System)</h3>
+<p>Pengembangan software sederhana untuk mendukung proses produksi dan traceability di manufacturing line. Sistem menghubungkan beberapa proses MES mulai dari consistency CSN, binding SIM, GBC, GBW hingga packing, dengan validasi data dan hasil proses secara bertahap.</p>
+<p>Project ini menunjukkan pengalaman dalam pengembangan software production support, integrasi proses MES, validasi serial/IMEI, monitoring hasil PASS/FAIL, serta troubleshooting sistem di shop floor.</p>
+<div class="tech"><span>MES</span><span>Visual Basic</span><span>Oracle SQL / PL-SQL</span><span>Production System</span><span>Traceability</span><span>IMEI / SN</span><span>PASS / FAIL</span><span>Shop Floor Support</span></div>
+<div class="iot-image">
+<img src="simple-mes-system.png" alt="Simple MES Manufacture Execution System">
+<div class="iot-caption">Software Development — Simple MES (Manufacture Execution System)</div>
+</div>
+</div>
+</div>
+
+<section id="skills"><div class="container">
+<div class="section-head"><small>Technical Skills</small><h2>Engineering Skills</h2></div>
+<div class="skills">
+<div class="skill">Visual Basic / VB.NET</div><div class="skill">C#</div><div class="skill">Python</div><div class="skill">Oracle PL/SQL</div><div class="skill">SQL Server</div><div class="skill">ASP.NET Core</div><div class="skill">SignalR</div><div class="skill">ESP8266 / ESP01</div><div class="skill">Arduino / Microcontroller</div><div class="skill">MQTT / Mosquitto</div><div class="skill">PLC / Machine I/O</div><div class="skill">MES / Shop Floor</div><div class="skill">Oracle</div><div class="skill">PostgreSQL</div><div class="skill">SQLite</div><div class="skill">Altium Designer</div><div class="skill">Proteus</div><div class="skill">PCB Single / Multi Layer</div><div class="skill">SMD / Through Hole Soldering</div><div class="skill">Hardware Troubleshooting</div>
+</div>
+</div></section>
+
+<section class="dark"><div class="container">
+<div class="section-head"><small>Training & Certification</small><h2>Additional Experience</h2></div>
+<div class="cards">
+<div class="card"><h3>Basic Electronic Engineering</h3><p>Training — 2008</p></div>
+<div class="card"><h3>Altium Basic PCB Design</h3><p>Training — 2012</p></div>
+<div class="card"><h3>ISO 9001:2015</h3><p>Quality Management System Training — 2017</p></div>
+<div class="card"><h3>IPC Standard Soldering</h3><p>Participation in Manual Hand Soldering Championship — 2019</p></div>
+<div class="card"><h3>Measurement Instruments</h3><p>Oscilloscope, LCR Meter, Function Generator, Multimeter, Gauge Meter dan Caliper.</p></div>
+<div class="card"><h3>Electronics Engineering</h3><p>Schematic, PCB layout, PCBA, prototype, testing, validation dan troubleshooting.</p></div>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="container">
+<div class="section-head"><small>Contact</small><h2>Let's Connect</h2></div>
+<p>Open to discussion about IoT, machine monitoring, industrial software and engineering projects.</p>
+<div class="links">
+<a href="https://github.com/" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+<a href="mailto:emailanda@example.com">Email</a>
+</div>
+</div></section>
+
+<footer>© 2026 Dede Kusdiana · IoT & Machine Monitoring Portfolio</footer>
+</body>
+</html>
